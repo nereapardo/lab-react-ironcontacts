@@ -80,7 +80,7 @@ const App = () => {
               <td>{popularity}</td>
 
               {wonOscar ? <td>🏆</td> : <td></td>}
-              {wonEmmy ? <td>✨</td> : <td></td>}
+              {wonEmmy ? <td>⭐</td> : <td></td>}
 
               <td>
                 <button onClick={() => removeContact(id)}>
